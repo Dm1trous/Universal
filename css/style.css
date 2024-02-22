@@ -1,24 +1,24 @@
 /* шрифты */
 @font-face {
     font-family: raleway-grid;
-    src: url("fonts/RalewayRegular.woff") format("woff");
+    src: url("../fonts/RalewayRegular.woff") format("woff");
 }
 
 @font-face {
     font-family: raleway-grid;
-    src: url("fonts/RalewayBold.woff") format("woff");
+    src: url("../fonts/RalewayBold.woff") format("woff");
     font-weight: 700;
 }
 
 @font-face {
     font-family: raleway-grid;
-    src: url("fonts/RalewayExtraBold.woff") format("woff");
+    src: url("../fonts/RalewayExtraBold.woff") format("woff");
     font-weight: 800;
 }
 
 @font-face {
     font-family: intro-grid;
-    src: url("fonts/IntroRegular.woff") format("woff");
+    src: url("../fonts/IntroRegular.woff") format("woff");
 }
 
 /* глобальные стили */
@@ -90,7 +90,7 @@ a {
 
 /* шапка */
 .header {
-    background-image: url("img/0-header.jpg");
+    background-image: url("../img/0-header.jpg");
     min-height: 100vh;
     background-size: cover;
     background-position: center;
